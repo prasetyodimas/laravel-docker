@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install nodejs && \
     apt-get install npm
 
-MAINTAINER Paul Redmond
+MAINTAINER Dimas Prasetyo
 
 COPY . /var/www/html
 COPY .docker/php/vhost.conf /etc/apache2/sites-available/000-default.conf
